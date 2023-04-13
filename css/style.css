@@ -1,11 +1,125 @@
 /* GLOBAL */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-html,body{
-    font-family: 'Jost', sans-serif;
+html,
+body {
+    font-family: "Jost", sans-serif;
     font-size: 16px;
     color: #404040;
 }
+
+/*BETTER PET NUTRITION*/
+.videofd {
+    padding: 6rem 0;
+}
+
+.videofd .videofd__title {
+    text-align: center;
+}
+
+.videofd .videofd__title h6 {
+    font-size: 1.125rem ;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.0625rem;
+    color: #f53626;
+}
+
+.videofd .videofd__title h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.videofd .videofd__title p {
+    font-size: 1.125rem;
+}
+
+.videofd .video__container {
+    margin-top: 2.5rem;
+}
+
+.videofd .video__container img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* End BETTER PET NUTRITION */
+
+/* TESTIMONIALS */
+.feedbacks {
+    padding: 4.5rem 0;
+    background: #f9f7fe;
+}
+
+.feedbacks .feedbacks__title {
+    text-align: center;
+}
+
+.feedbacks .feedbacks__title h6 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+
+.feedbacks .feedbacks__title h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.feedbacks .feedbacks__slide-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2.5rem 1.875rem;
+}
+
+.feedbacks__slide-item .feedbacks__content {
+    margin: 1.5rem;
+    margin-top: 0;
+}
+
+.feedbacks__slide-item .feedbacks__desc {
+    display: flex;
+    align-items: center;
+}
+
+.feedbacks__slide-item .desc__img {
+    width: 4.375rem;
+    height: 4.375rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.feedbacks__slide-item .desc__img img {
+    width: 100%;
+
+}
+
+.feedbacks__desc .desc__people {
+    margin-left: 1rem;
+}
+
+.feedbacks__desc .desc__people h3 {
+    margin-bottom: 0.1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.feedbacks__desc .desc__people p {
+    margin: 0;
+    color: #777;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+
+/* End Testimonials */
+ 
