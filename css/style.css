@@ -9,8 +9,35 @@ html,body{
     font-size: 16px;
     color: #404040;
 }
-a{
-    text-decoration: none;
+.title{
+    text-align: center;
+}
+.title h6{
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.title h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.read{
+    font-size: 17px;
+    padding: 0;
+    border-bottom: 2px solid #189a46;
+    transition: all .3s;
+    border-radius: 0;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #000c04;
+    font-weight: 600;
+
 }
 /* HEADER */
 
@@ -120,8 +147,6 @@ header .navbar .header__logo:hover{
 #menuHeader .header__search i{
     color: #189a46;
     font-size: 1rem;
-   
-
 }
 #menuHeader .header__search{
     border-radius: 50%;
@@ -145,8 +170,9 @@ header .navbar .header__logo:hover{
     transition: 1s;
 }
 #poochCarouselCap .carousel-item>img{
-    height: calc(100vh - 90px);
-    object-fit: cover;
+    min-height: calc(100vh - 90px);
+    background-size: cover;
+    /* object-fit: cover; */
     filter: brightness(50%);
 }
 
@@ -165,7 +191,7 @@ header .navbar .header__logo:hover{
     font-size: 1.2rem;
 }
 #poochCarouselCap button.btn{
-    padding: 12px 35px;
+    padding: 10px 35px;
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: 400;
@@ -186,7 +212,7 @@ header .navbar .header__logo:hover{
    max-width: 700px;
    position: absolute;
     top: 20%;
-    left: 9% ;
+    left:   9% ;
 }
 #poochCarouselCap .carousel-indicators li{
     display: none;
@@ -197,7 +223,7 @@ header .navbar .header__logo:hover{
     height: 10px;
     border-radius: 25px;
     opacity: 0.9;
-    margin: 5px 10px;
+    margin: 30px 10px;
     transition: .2s;
     border: none;
 }
@@ -223,7 +249,27 @@ header .navbar .header__logo:hover{
         font-size: 50px;
         line-height: 55px;
     }
-    #poochCarouselCap .carousel-caption p{
-        font-size: 15px;
+}
+@media (max-width:480px){
+    #poochCarouselCap .carousel-caption h5{
+        font-size: 32px;
+        line-height: 42px;
     }
+}
+
+/* ABOUT US */
+.about__title .title{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.about__title .title p{
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #696969;
+}
+.about__title .title a{
+    text-decoration: none;
+}
+.about__title .title a:hover{
+    color: #189a46;
 }
