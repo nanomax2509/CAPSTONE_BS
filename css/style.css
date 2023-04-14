@@ -22,12 +22,12 @@ header .navbar .header__logo{
 header .navbar .header__logo:hover{
     color: #189a46;
 }
-#header__menu .nav-item{
+#menuHeader .nav-item{
     padding: 0 10px;
     position: relative;
 
 }
-#header__menu .nav-link{
+#menuHeader .nav-link{
     padding: 14px 0;
     font-size: 1.2rem;
     font-weight: 400;
@@ -36,14 +36,14 @@ header .navbar .header__logo:hover{
     color: #000c04;
     text-align: center;
 }
-#header__menu .nav-item:hover .nav-link{
+#menuHeader .nav-item:hover .nav-link{
     color: #189a46;
 }
-#header__menu .active .nav-link{
+#menuHeader .active .nav-link{
     color: #189a46;
 }
-#header__menu a.nav-link:before, 
-#header__menu a.dropdown-item:before{
+#menuHeader a.nav-link:before, 
+#menuHeader a.dropdown-item:before{
     content: "";
     background-color: #189a46;
     width: 0%;
@@ -52,22 +52,22 @@ header .navbar .header__logo:hover{
     bottom: 13px;
     transition: all .5s;
 }
-#header__menu a.nav-link:hover:before{
+#menuHeader a.nav-link:hover:before{
     width: 100%;
 }
-#header__menu .dropdown{
+#menuHeader .dropdown{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#header__menu .dropdown i{
+#menuHeader .dropdown i{
     margin-left: 5px;
     font-size: 0.7rem;
     vertical-align: middle;
     color: #999;
 }
-#header__menu .dropdown-toggle::after{
+#menuHeader .dropdown-toggle::after{
     /* content: "";
     color: #000c04;
     opacity: 0.7;
@@ -77,14 +77,14 @@ header .navbar .header__logo:hover{
     display: inline-block; */
     display: none;
 }
-#header__menu .dropdown-menu{
+#menuHeader .dropdown-menu{
     background-color: white;
     border: 1px solid #ddd;
     min-width: 13rem;
     padding: 1rem 0 0.3rem;
     border-radius: 10px;
 }
-#header__menu .dropdown-menu::before{
+#menuHeader .dropdown-menu::before{
     content: "";
     width: 14px;
     height: 14px;
@@ -99,7 +99,7 @@ header .navbar .header__logo:hover{
     left: 30%;
     z-index: 10;
 }
-#header__menu .dropdown-item{
+#menuHeader .dropdown-item{
     font-weight: 400;
     font-size: 1.2rem;
     position: relative;
@@ -110,20 +110,20 @@ header .navbar .header__logo:hover{
     padding-bottom: 14px;
 
 }
-#header__menu .dropdown-item:hover::before{
+#menuHeader .dropdown-item:hover::before{
     width: 100%;
 }
-#header__menu .dropdown-item:hover{
+#menuHeader .dropdown-item:hover{
     color: #189a46;
     background-color: white;
 }
-#header__menu .header__search i{
+#menuHeader .header__search i{
     color: #189a46;
     font-size: 1rem;
    
 
 }
-#header__menu .header__search{
+#menuHeader .header__search{
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -138,4 +138,92 @@ header .navbar .header__logo:hover{
 }
 .header__button i{
     color: white;
+}
+
+/* CAROUSEL */
+#poochCarouselCap .carousel-item{
+    transition: 1s;
+}
+#poochCarouselCap .carousel-item>img{
+    height: calc(100vh - 90px);
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+#poochCarouselCap .carousel-caption h5{
+    font-size: 4.125rem;
+    line-height: 4.75rem;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}
+#poochCarouselCap .carousel-caption p{
+    font-weight: 400;
+    line-height: 1.875rem;
+    opacity: 0.9;
+    color: white;
+    font-size: 1.2rem;
+}
+#poochCarouselCap button.btn{
+    padding: 12px 35px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: white;
+    transition: all .5s;
+}
+#poochCarouselCap button.btn:hover{
+    background-color: white;
+    color: #189a46;
+}
+#poochCarouselCap button.btn-white{
+    color: #189a46;
+    background-color: #fff;
+}
+#poochCarouselCap .carousel-caption{
+   max-width: 700px;
+   position: absolute;
+    top: 20%;
+    left: 9% ;
+}
+#poochCarouselCap .carousel-indicators li{
+    display: none;
+}
+#poochCarouselCap .carousel-indicators li{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    opacity: 0.9;
+    margin: 5px 10px;
+    transition: .2s;
+    border: none;
+}
+
+#poochCarouselCap .carousel-indicators li:hover,
+#poochCarouselCap .carousel-indicators .active{
+    background-color: #189a46;
+    width: 30px;
+    height: 10px;
+}
+
+@media (max-width:1200px) {
+    #poochCarouselCap .carousel-caption h5{
+        font-size: 52px;
+        line-height: 62px;
+    }
+    #poochCarouselCap .carousel-caption p{
+        font-size: 15px;
+    }
+}
+@media (max-width:992px) {
+    #poochCarouselCap .carousel-caption h5{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    #poochCarouselCap .carousel-caption p{
+        font-size: 15px;
+    }
 }
