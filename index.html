@@ -25,10 +25,118 @@
 <body>
     <!-- HEADER -->
     <header>
-
+        <div class="container ">
+            <!-- Image and text -->
+            <nav class=" navbar navbar-expand-lg navbar-light bg-white">
+                <a class="header__logo navbar-brand" href="#">Pooch Care</a>
+                <button class="header__button navbar-toggler" type="button" data-toggle="collapse" data-target="#menuHeader" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- class="navbar-toggler-icon" -->
+                  <span >
+                    <i class="fa fa-bars"></i>
+                  </span>
+                 
+                </button>
+                <div class="collapse navbar-collapse" id="menuHeader">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Pages
+                      </a>
+                      <i class="fa fa-chevron-down"></i>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Blog Posts</a>
+                        <a class="dropdown-item" href="#">Landing page</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <!-- <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="header__search bg-light" href="#"><i class="fa fa-search"></i></a>
+                          </li>
+                      </ul> -->
+                  </ul>
+                </div>
+                
+              </nav>
+        </div>
     </header>
     <!-- CAROUSEL -->
-    <section class="carousel"></section>
+    <section class="carousel">
+      <!--  -->
+        <div id="poochCarouselCap" class="carousel slide " data-interval="5000" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#poochCarouselCap" data-slide-to="0" class="active">
+            </li>
+            <li data-target="#poochCarouselCap" data-slide-to="1">
+            </li>
+            <li data-target="#poochCarouselCap" data-slide-to="2">
+            </li>
+            <li data-target="#poochCarouselCap" data-slide-to="3">
+            </li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/carousel_1.jpg" class="d-block w-100" alt="...">
+              <div class=" carousel-caption  d-md-block text-left">
+                <div class="container">
+                <h5>Quality Things for Loving Pets</h5>
+                <p>Keeps your Pet Smiling</p>
+                <button type="button " class="btn btn-outline-success btn-white mt-sm-5 mt-4 mr-2">Read More</button>
+                <button type="button" class="btn btn-outline-success mt-sm-5 mt-4">Contact Us</button>
+              </div></div>  
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carousel_2.jpg" class="d-block w-100" alt="...">
+              <div class="container">
+              <div class=" carousel-caption  d-md-block ml-auto text-left">
+                <h5>Delivering happiness for Pets</h5>
+                <p>For the love of pets </p>
+                <button type="button " class="btn btn-outline-success btn-white mt-sm-5 mt-4 mr-2
+                ">Read More</button>
+                <button type="button" class="btn btn-outline-success mt-sm-5 mt-4">Contact Us</button>
+              </div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carousel_1.jpg" class="d-block w-100" alt="...">
+              <div class=" carousel-caption   d-md-block text-left">
+                <div class="container">
+                <h5>Quality Things for Loving Pets</h5>
+                <p>Keeps your Pet Smiling</p>
+                <button type="button " class="btn btn-outline-success btn-white mt-sm-5 mt-4 mr-2
+                ">Read More</button>
+                <button type="button" class="btn btn-outline-success mt-sm-5 mt-4">Contact Us</button>
+              </div></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carousel_1.jpg" class="d-block w-100" alt="...">
+              <div class=" carousel-caption  d-md-block ml-auto text-left">
+                <div class="container">
+                <h5>Delivering happiness for Pets</h5>
+                <p>We help your Projects</p>
+                <button type="button " class="btn btn-outline-success btn-white mt-sm-5 mt-4 mr-2
+                ">Read More</button>
+                <button type="button" class="btn btn-outline-success mt-sm-5 mt-4">Contact Us</button>
+              </div></div>
+            </div>
+          </div>
+          
+        </div>
+      
+    </section>
     <!-- ABOUT US -->
     <section class="about"></section>
     <!-- WHY CHOOSE US -->
