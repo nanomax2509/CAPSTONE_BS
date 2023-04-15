@@ -4,12 +4,276 @@
     margin: 0;
     padding: 0;
 }
-html,
-body {
+html,body {
     font-family: "Jost", sans-serif;
     font-size: 16px;
     color: #404040;
 }
+.title{
+    text-align: center;
+}
+.title h6{
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.title h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.read{
+    font-size: 17px;
+    padding: 0;
+    border-bottom: 2px solid #189a46;
+    transition: all .3s;
+    border-radius: 0;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #000c04;
+    font-weight: 600;
+
+}
+/* HEADER */
+
+header .navbar .header__logo{
+    font-size: 34px;
+    font-weight: 600;
+    color: #189a46;
+}
+header .navbar .header__logo:hover{
+    color: #189a46;
+}
+#menuHeader .nav-item{
+    padding: 0 10px;
+    position: relative;
+
+}
+#menuHeader .nav-link{
+    padding: 14px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all .5s;
+    position: relative;
+    color: #000c04;
+    text-align: center;
+}
+#menuHeader .nav-item:hover .nav-link{
+    color: #189a46;
+}
+#menuHeader .active .nav-link{
+    color: #189a46;
+}
+#menuHeader a.nav-link:before, 
+#menuHeader a.dropdown-item:before{
+    content: "";
+    background-color: #189a46;
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 13px;
+    transition: all .5s;
+}
+#menuHeader a.nav-link:hover:before{
+    width: 100%;
+}
+#menuHeader .dropdown{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menuHeader .dropdown i{
+    margin-left: 5px;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    color: #999;
+}
+#menuHeader .dropdown-toggle::after{
+    /* content: "";
+    color: #000c04;
+    opacity: 0.7;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    display: inline-block; */
+    display: none;
+}
+#menuHeader .dropdown-menu{
+    background-color: white;
+    border: 1px solid #ddd;
+    min-width: 13rem;
+    padding: 1rem 0 0.3rem;
+    border-radius: 10px;
+}
+#menuHeader .dropdown-menu::before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: block;
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(-50%) rotateZ(45deg);
+    position: absolute;
+    top: -7%;
+    left: 30%;
+    z-index: 10;
+}
+#menuHeader .dropdown-item{
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: relative;
+    color: #000c04;
+    padding-top: 0;
+    display: block;
+    width: 100px;
+    padding-bottom: 14px;
+
+}
+#menuHeader .dropdown-item:hover::before{
+    width: 100%;
+}
+#menuHeader .dropdown-item:hover{
+    color: #189a46;
+    background-color: white;
+}
+#menuHeader .header__search i{
+    color: #189a46;
+    font-size: 1rem;
+}
+#menuHeader .header__search{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    /* padding: 14px 0; */
+}
+.navbar-light .navbar-toggler {
+    background-color: #189a46;
+}
+.header__button i{
+    color: white;
+}
+
+/* CAROUSEL */
+#poochCarouselCap .carousel-item{
+    transition: 1s;
+}
+#poochCarouselCap .carousel-item>img{
+    min-height: calc(100vh - 90px);
+    background-size: cover;
+    /* object-fit: cover; */
+    filter: brightness(50%);
+}
+
+#poochCarouselCap .carousel-caption h5{
+    font-size: 4.125rem;
+    line-height: 4.75rem;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}
+#poochCarouselCap .carousel-caption p{
+    font-weight: 400;
+    line-height: 1.875rem;
+    opacity: 0.9;
+    color: white;
+    font-size: 1.2rem;
+}
+#poochCarouselCap button.btn{
+    padding: 10px 35px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: white;
+    transition: all .5s;
+}
+#poochCarouselCap button.btn:hover{
+    background-color: white;
+    color: #189a46;
+}
+#poochCarouselCap button.btn-white{
+    color: #189a46;
+    background-color: #fff;
+}
+#poochCarouselCap .carousel-caption{
+   max-width: 700px;
+   position: absolute;
+    top: 20%;
+    left:   9% ;
+}
+#poochCarouselCap .carousel-indicators li{
+    display: none;
+}
+#poochCarouselCap .carousel-indicators li{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    opacity: 0.9;
+    margin: 30px 10px;
+    transition: .2s;
+    border: none;
+}
+
+#poochCarouselCap .carousel-indicators li:hover,
+#poochCarouselCap .carousel-indicators .active{
+    background-color: #189a46;
+    width: 30px;
+    height: 10px;
+}
+
+@media (max-width:1200px) {
+    #poochCarouselCap .carousel-caption h5{
+        font-size: 52px;
+        line-height: 62px;
+    }
+    #poochCarouselCap .carousel-caption p{
+        font-size: 15px;
+    }
+}
+@media (max-width:992px) {
+    #poochCarouselCap .carousel-caption h5{
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+@media (max-width:480px){
+    #poochCarouselCap .carousel-caption h5{
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+/* ABOUT US */
+.about__title .title{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.about__title .title p{
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #696969;
+}
+.about__title .title a{
+    text-decoration: none;
+}
+.about__title .title a:hover{
+    color: #189a46;
+}
+
 /*BETTER PET NUTRITION*/
 .videofd {
     padding: 6rem 0;
