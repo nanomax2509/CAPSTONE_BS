@@ -278,6 +278,10 @@ header .navbar .header__logo:hover{
 .videofd {
     padding: 6rem 0;
 }
+.videofd .videofd__container {
+    max-width: 950px;
+    margin: 0 auto;
+}
 .videofd .videofd__title {
     text-align: center;
 }
