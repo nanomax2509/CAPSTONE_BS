@@ -30,6 +30,11 @@
             href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
         />
+        <!-- Magnific Popup Css -->
+        <link
+            rel="stylesheet"
+            href="./Magnific-Popup-master/dist/magnific-popup.css"
+        />
         <!-- MAIN CSS -->
         <link rel="stylesheet" href="./css/style.css" />
     </head>
@@ -65,249 +70,29 @@
                         src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner2.jpg"
                         alt="video"
                     />
+                    <a href="#video__popup" class="open-popup-link"
+                        ><div class="iconPlay__container">
+                            <span>
+                                <div class="border__play borderp1"></div>
+                                <div class="border__play borderp2"></div>
+                                <div class="border__play borderp3"></div>
+                                <i class="fa fa-play"></i>
+                            </span>
+                        </div>
+                    </a>
+                    <div id="video__popup" class="mfp-hide">
+                        <iframe
+                            src="https://player.vimeo.com/video/101587706"
+                            frameborder="0"
+                            allow="autoplay; fullscreen"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- TESTIMONIALS -->
         <section class="feedbacks">
-            <div class="container">
-                <div class="feedbacks__title">
-                    <h6>TESTIMONIALS</h6>
-                    <h3>Happy Clients & Feedbacks</h3>
-                </div>
-                <div class="feedbacks__carousel">
-                    <!-- data-ride="carousel" -->
-                    <div id="feedbacks__slide" class="carousel slide">
-                        <ol class="carousel-indicators">
-                            <li
-                                data-target="#feedbacks__slide"
-                                data-slide-to="0"
-                                class="active"
-                            ></li>
-                            <li
-                                data-target="#feedbacks__slide"
-                                data-slide-to="1"
-                            ></li>
-                            <li
-                                data-target="#feedbacks__slide"
-                                data-slide-to="2"
-                            ></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="feedbacks__slide-item">
-                                            <div class="feedbacks__content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Velit beatae
-                                                    laudantium voluptate rem
-                                                    ullam dolore nisi
-                                                    voluptatibus esse quasi,
-                                                    doloribus tempora. Dolores
-                                                    molestias adipisci dolor sit
-                                                    amet!.
-                                                </p>
-                                            </div>
-                                            <div class="feedbacks__desc">
-                                                <div class="desc__img">
-                                                    <img
-                                                        src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/f1.jpg"
-                                                        alt="photo"
-                                                    />
-                                                </div>
-                                                <div class="desc__people">
-                                                    <h3>John wilson</h3>
-                                                    <p>Example City</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="feedbacks__slide-item">
-                                            <div class="feedbacks__content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Velit beatae
-                                                    laudantium voluptate rem
-                                                    ullam dolore nisi
-                                                    voluptatibus esse quasi,
-                                                    doloribus tempora. Dolores
-                                                    molestias adipisci dolor sit
-                                                    amet!.
-                                                </p>
-                                            </div>
-                                            <div class="feedbacks__desc">
-                                                <div class="desc__img">
-                                                    <img
-                                                        src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/f1.jpg"
-                                                        alt="photo"
-                                                    />
-                                                </div>
-                                                <div class="desc__people">
-                                                    <h3>John wilson</h3>
-                                                    <p>Example City</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="feedbacks__slide-item">
-                                            <div class="feedbacks__content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Velit beatae
-                                                    laudantium voluptate rem
-                                                    ullam dolore nisi
-                                                    voluptatibus esse quasi,
-                                                    doloribus tempora. Dolores
-                                                    molestias adipisci dolor sit
-                                                    amet!.
-                                                </p>
-                                            </div>
-                                            <div class="feedbacks__desc">
-                                                <div class="desc__img">
-                                                    <img
-                                                        src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/f1.jpg"
-                                                        alt="photo"
-                                                    />
-                                                </div>
-                                                <div class="desc__people">
-                                                    <h3>John wilson</h3>
-                                                    <p>Example City</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="feedbacks__slide-item">
-                                            <div class="feedbacks__content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Velit beatae
-                                                    laudantium voluptate rem
-                                                    ullam dolore nisi
-                                                    voluptatibus esse quasi,
-                                                    doloribus tempora. Dolores
-                                                    molestias adipisci dolor sit
-                                                    amet!.
-                                                </p>
-                                            </div>
-                                            <div class="feedbacks__desc">
-                                                <div class="desc__img">
-                                                    <img
-                                                        src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/f1.jpg"
-                                                        alt="photo"
-                                                    />
-                                                </div>
-                                                <div class="desc__people">
-                                                    <h3>John wilson</h3>
-                                                    <p>Example City</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="feedbacks__slide-item">
-                                            <div class="feedbacks__content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Velit beatae
-                                                    laudantium voluptate rem
-                                                    ullam dolore nisi
-                                                    voluptatibus esse quasi,
-                                                    doloribus tempora. Dolores
-                                                    molestias adipisci dolor sit
-                                                    amet!.
-                                                </p>
-                                            </div>
-                                            <div class="feedbacks__desc">
-                                                <div class="desc__img">
-                                                    <img
-                                                        src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/f1.jpg"
-                                                        alt="photo"
-                                                    />
-                                                </div>
-                                                <div class="desc__people">
-                                                    <h3>John wilson</h3>
-                                                    <p>Example City</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="feedbacks__slide-item">
-                                            <div class="feedbacks__content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Velit beatae
-                                                    laudantium voluptate rem
-                                                    ullam dolore nisi
-                                                    voluptatibus esse quasi,
-                                                    doloribus tempora. Dolores
-                                                    molestias adipisci dolor sit
-                                                    amet!.
-                                                </p>
-                                            </div>
-                                            <div class="feedbacks__desc">
-                                                <div class="desc__img">
-                                                    <img
-                                                        src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/f1.jpg"
-                                                        alt="photo"
-                                                    />
-                                                </div>
-                                                <div class="desc__people">
-                                                    <h3>John wilson</h3>
-                                                    <p>Example City</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button
-                            class="carousel-control-prev"
-                            type="button"
-                            data-target="#feedbacks__slide"
-                            data-slide="prev"
-                        >
-                            <span
-                                class="carousel-control-prev-icon"
-                                aria-hidden="true"
-                            ></span>
-                            <span class="sr-only">Previous</span>
-                        </button>
-                        <button
-                            class="carousel-control-next"
-                            type="button"
-                            data-target="#feedbacks__slide"
-                            data-slide="next"
-                        >
-                            <span
-                                class="carousel-control-next-icon"
-                                aria-hidden="true"
-                            ></span>
-                            <span class="sr-only">Next</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
         </section>
         <!-- UPDATED -->
         <section class="update"></section>
@@ -316,6 +101,33 @@
         <!-- BUTTON: BACKTOTOP -->
         <button class="btn"></button>
 
+        <!-- Cac link js -->
+        <!-- Jquery -->
+        <script
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"
+        ></script>
+        <!-- Magnific Popup JS -->
+        <script src="./Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+        <!-- Magnific Popup Custom js -->
+        <script>
+            $(".open-popup-link").magnificPopup({
+                type: "inline",
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: "auto",
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in",
+            });
+        </script>
         <!-- BS4 -->
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
