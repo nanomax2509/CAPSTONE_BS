@@ -1,11 +1,11 @@
 /* GLOBAL */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-html,body{
-    font-family: 'Jost', sans-serif;
+html,body {
+    font-family: "Jost", sans-serif;
     font-size: 16px;
     color: #404040;
 }
@@ -272,4 +272,150 @@ header .navbar .header__logo:hover{
 }
 .about__title .title a:hover{
     color: #189a46;
+}
+
+/*BETTER PET NUTRITION*/
+.videofd {
+    padding: 6rem 0;
+}
+.videofd .videofd__container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.videofd .videofd__title {
+    text-align: center;
+}
+.videofd .videofd__title h6 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.0625rem;
+    color: #f53626;
+}
+.videofd .videofd__title h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.videofd .videofd__title p {
+    font-size: 1.125rem;
+}
+.videofd .video__container {
+    margin-top: 2.5rem;
+    position: relative;
+}
+.videofd .video__container img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.videofd .iconPlay__container {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.videofd .iconPlay__container span {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    line-height: 56px;
+    text-align: center;
+    transition: all 0.3s;
+    position: relative;
+}
+.videofd .iconPlay__container span:hover {
+    transform: scale(1.1);
+}
+.videofd .iconPlay__container .border__play {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+.videofd .iconPlay__container .borderp1 {
+    outline: 10px solid RGBA(24, 154, 70, 0.33);
+}
+.videofd .iconPlay__container .borderp2 {
+    outline: 15px solid RGBA(24, 154, 70, 0.33);
+    opacity: 0;
+    animation: animateScale2 1.8s infinite;
+}
+
+.videofd .iconPlay__container .borderp3 {
+    outline: 20px solid RGBA(24, 154, 70, 0.33);
+    opacity: 0;
+    animation: animateScale3 2s infinite;
+}
+.videofd .iconPlay__container i {
+    color: #189a46;
+}
+#video__popup {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+}
+div#video__popup iframe {
+    width: 100%;
+    height: 420px;
+    display: block;
+}
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+    top: -20px;
+    right: -14px;
+    font-size: 2rem;
+}
+
+/* Responsive Better Pet Nutrition */
+@media screen and (max-width: 992px) {
+    .videofd .videofd__title h3 {
+        font-size: 2.1875rem;
+        line-height: 2.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .videofd .videofd__title h3 {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+}
+
+/* End BETTER PET NUTRITION */
+
+@keyframes animateScale1 {
+    10% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.3);
+        opacity: 0.5;
+    }
+}
+@keyframes animateScale2 {
+    30% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0.2;
+    }
+}
+@keyframes animateScale3 {
+    50% {
+        outline-width: 13px;
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
 }
