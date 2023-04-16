@@ -4,15 +4,16 @@
     margin: 0;
     padding: 0;
 }
-html,body {
+html,
+body {
     font-family: "Jost", sans-serif;
     font-size: 16px;
     color: #404040;
 }
-.title{
+.title {
     text-align: center;
 }
-.title h6{
+.title h6 {
     font-size: 1.125rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -20,81 +21,79 @@ html,body {
     letter-spacing: 1px;
     color: #f53626;
 }
-.title h3{
+.title h3 {
     font-size: 2.5rem;
     font-weight: 600;
     line-height: 48px;
     text-transform: capitalize;
 }
-.read{
+.read {
     font-size: 17px;
     padding: 0;
     border-bottom: 2px solid #189a46;
-    transition: all .3s;
+    transition: all 0.3s;
     border-radius: 0;
     margin-top: 20px;
     display: inline-block;
     text-transform: capitalize;
     color: #000c04;
     font-weight: 600;
-
 }
 /* HEADER */
 
-header .navbar .header__logo{
+header .navbar .header__logo {
     font-size: 34px;
     font-weight: 600;
     color: #189a46;
 }
-header .navbar .header__logo:hover{
+header .navbar .header__logo:hover {
     color: #189a46;
 }
-#menuHeader .nav-item{
+#menuHeader .nav-item {
     padding: 0 10px;
     position: relative;
-
 }
-#menuHeader .nav-link{
+#menuHeader .nav-link {
     padding: 14px 0;
     font-size: 1.2rem;
     font-weight: 400;
-    transition: all .5s;
+    transition: all 0.5s;
     position: relative;
     color: #000c04;
     text-align: center;
 }
-#menuHeader .nav-item:hover .nav-link{
+#menuHeader .nav-item:hover .nav-link {
     color: #189a46;
 }
-#menuHeader .active .nav-link{
+#menuHeader .active .nav-link {
     color: #189a46;
 }
-#menuHeader a.nav-link:before, 
-#menuHeader a.dropdown-item:before{
+#menuHeader a.nav-link:before,
+#menuHeader a.dropdown-item:before {
     content: "";
     background-color: #189a46;
     width: 0%;
     height: 1px;
     position: absolute;
     bottom: 13px;
-    transition: all .5s;
+    transition: all 0.5s;
 }
-#menuHeader a.nav-link:hover:before{
+#menuHeader a.nav-link:hover:before {
     width: 100%;
 }
-#menuHeader .dropdown{
+#menuHeader .dropdown {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#menuHeader .dropdown i{
+#menuHeader .dropdown i {
     margin-left: 5px;
     font-size: 0.7rem;
     vertical-align: middle;
     color: #999;
 }
-#menuHeader .dropdown-toggle::after{
+#menuHeader .dropdown-toggle::after {
     /* content: "";
     color: #000c04;
     opacity: 0.7;
@@ -104,14 +103,14 @@ header .navbar .header__logo:hover{
     display: inline-block; */
     display: none;
 }
-#menuHeader .dropdown-menu{
+#menuHeader .dropdown-menu {
     background-color: white;
     border: 1px solid #ddd;
     min-width: 13rem;
     padding: 1rem 0 0.3rem;
     border-radius: 10px;
 }
-#menuHeader .dropdown-menu::before{
+#menuHeader .dropdown-menu::before {
     content: "";
     width: 14px;
     height: 14px;
@@ -126,7 +125,7 @@ header .navbar .header__logo:hover{
     left: 30%;
     z-index: 10;
 }
-#menuHeader .dropdown-item{
+#menuHeader .dropdown-item {
     font-weight: 400;
     font-size: 1.2rem;
     position: relative;
@@ -135,20 +134,19 @@ header .navbar .header__logo:hover{
     display: block;
     width: 100px;
     padding-bottom: 14px;
-
 }
-#menuHeader .dropdown-item:hover::before{
+#menuHeader .dropdown-item:hover::before {
     width: 100%;
 }
-#menuHeader .dropdown-item:hover{
+#menuHeader .dropdown-item:hover {
     color: #189a46;
     background-color: white;
 }
-#menuHeader .header__search i{
+#menuHeader .header__search i {
     color: #189a46;
     font-size: 1rem;
 }
-#menuHeader .header__search{
+#menuHeader .header__search {
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -161,36 +159,36 @@ header .navbar .header__logo:hover{
 .navbar-light .navbar-toggler {
     background-color: #189a46;
 }
-.header__button i{
+.header__button i {
     color: white;
 }
 
 /* CAROUSEL */
-#poochCarouselCap .carousel-item{
+#poochCarouselCap .carousel-item {
     transition: 1s;
 }
-#poochCarouselCap .carousel-item>img{
+#poochCarouselCap .carousel-item > img {
     min-height: calc(100vh - 90px);
     background-size: cover;
     /* object-fit: cover; */
     filter: brightness(50%);
 }
 
-#poochCarouselCap .carousel-caption h5{
+#poochCarouselCap .carousel-caption h5 {
     font-size: 4.125rem;
     line-height: 4.75rem;
     font-weight: 700;
     color: white;
     text-transform: capitalize;
 }
-#poochCarouselCap .carousel-caption p{
+#poochCarouselCap .carousel-caption p {
     font-weight: 400;
     line-height: 1.875rem;
     opacity: 0.9;
     color: white;
     font-size: 1.2rem;
 }
-#poochCarouselCap button.btn{
+#poochCarouselCap button.btn {
     padding: 10px 35px;
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -198,79 +196,79 @@ header .navbar .header__logo:hover{
     border-radius: 10px;
     border: 2px solid #fff;
     color: white;
-    transition: all .5s;
+    transition: all 0.5s;
 }
-#poochCarouselCap button.btn:hover{
+#poochCarouselCap button.btn:hover {
     background-color: white;
     color: #189a46;
 }
-#poochCarouselCap button.btn-white{
+#poochCarouselCap button.btn-white {
     color: #189a46;
     background-color: #fff;
 }
-#poochCarouselCap .carousel-caption{
-   max-width: 700px;
-   position: absolute;
+#poochCarouselCap .carousel-caption {
+    max-width: 700px;
+    position: absolute;
     top: 20%;
-    left:   9% ;
+    left: 9%;
 }
-#poochCarouselCap .carousel-indicators li{
+#poochCarouselCap .carousel-indicators li {
     display: none;
 }
-#poochCarouselCap .carousel-indicators li{
+#poochCarouselCap .carousel-indicators li {
     display: block;
     width: 10px;
     height: 10px;
     border-radius: 25px;
     opacity: 0.9;
     margin: 30px 10px;
-    transition: .2s;
+    transition: 0.2s;
     border: none;
 }
 
 #poochCarouselCap .carousel-indicators li:hover,
-#poochCarouselCap .carousel-indicators .active{
+#poochCarouselCap .carousel-indicators .active {
     background-color: #189a46;
     width: 30px;
     height: 10px;
 }
 
-@media (max-width:1200px) {
-    #poochCarouselCap .carousel-caption h5{
+@media (max-width: 1200px) {
+    #poochCarouselCap .carousel-caption h5 {
         font-size: 52px;
         line-height: 62px;
     }
-    #poochCarouselCap .carousel-caption p{
+    #poochCarouselCap .carousel-caption p {
         font-size: 15px;
     }
 }
-@media (max-width:992px) {
-    #poochCarouselCap .carousel-caption h5{
+@media (max-width: 992px) {
+    #poochCarouselCap .carousel-caption h5 {
         font-size: 50px;
         line-height: 55px;
     }
 }
-@media (max-width:480px){
-    #poochCarouselCap .carousel-caption h5{
+@media (max-width: 480px) {
+    #poochCarouselCap .carousel-caption h5 {
         font-size: 32px;
         line-height: 42px;
     }
 }
 
 /* ABOUT US */
-.about__title .title{
+.about__title .title {
     max-width: 700px;
     margin: 0 auto;
 }
-.about__title .title p{
+.about__title .title p {
     font-size: 1.2rem;
     line-height: 28px;
     color: #696969;
 }
-.about__title .title a{
+.about__title .title a {
     text-decoration: none;
 }
-.about__title .title a:hover{
+.about__title .title a:hover {
     color: #189a46;
 }
 
@@ -374,6 +372,9 @@ div#video__popup iframe {
 
 /* Responsive Better Pet Nutrition */
 @media screen and (max-width: 992px) {
+    .videofd {
+        padding: 3rem 0;
+    }
     .videofd .videofd__title h3 {
         font-size: 2.1875rem;
         line-height: 2.5rem;
@@ -385,8 +386,142 @@ div#video__popup iframe {
         line-height: 2.375rem;
     }
 }
-
 /* End BETTER PET NUTRITION */
+
+/* TESTIMONIALS */
+.feedbacks {
+    padding: 4rem 0;
+    background: #f9f7fe;
+}
+.feedbacks .feedbacks__title {
+    text-align: center;
+}
+.feedbacks .feedbacks__title h6 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.feedbacks .feedbacks__title h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+.feedbacks .feedbacks__carousel {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.feedbacks .feedbacks__slide-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2.5rem 1.875rem;
+}
+.feedbacks__slide-item .feedbacks__content {
+    margin: 1.5rem;
+    margin-top: 0;
+}
+/* Edit " in content */
+.feedbacks__slide-item .feedbacks__content span {
+    font-size: 3.125rem;
+    color: #189a46;
+    line-height: 0.8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: "Merriweather", serif;
+}
+.feedbacks__slide-item .feedbacks__content p {
+    font-size: 1rem;
+}
+.feedbacks__slide-item .feedbacks__desc {
+    display: flex;
+    align-items: center;
+}
+.feedbacks__slide-item .desc__img {
+    width: 4.375rem;
+    height: 4.375rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.feedbacks__slide-item .desc__img img {
+    width: 100%;
+}
+.feedbacks__desc .desc__people {
+    margin-left: 1rem;
+}
+.feedbacks__desc .desc__people h3 {
+    margin-bottom: 0.1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.feedbacks__desc .desc__people p {
+    margin: 0;
+    color: #777;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+.feedbacks__slide-item {
+    margin-left: 1rem;
+}
+
+/* Edit Lib Stick */
+.slick-dots {
+    bottom: -55px;
+}
+.slick-dots li {
+    margin: 0 7px;
+}
+.slick-dots li button::before {
+    display: block;
+    font-size: 10px;
+    opacity: 1;
+    color: #d8d8d8;
+}
+.slick-dots li button:hover::before {
+    font-family: "Jost", sans-serif;
+    width: 30px;
+    height: 10px;
+    top: 3px;
+    left: -4px;
+    border-radius: 10px;
+    background: #189a46;
+    color: #189a46;
+}
+.slick-dots li.slick-active button::before {
+    font-family: "Jost", sans-serif;
+    width: 30px;
+    height: 10px;
+    color: #189a46;
+    background: #189a46;
+    border-radius: 10px;
+    top: 3px;
+    left: -4px;
+}
+.feedbacks .feedbacks__carousel:active {
+    cursor: pointer;
+}
+/* Responsive Testimonials */
+@media screen and (max-width: 992px) {
+    .feedbacks {
+        padding: 3rem 0 1.5rem;
+    }
+    .feedbacks .feedbacks__title h3 {
+        font-size: 2.1875rem;
+        line-height: 2.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .feedbacks .feedbacks__title h3 {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+    .slick-dots {
+        display: none;
+    }
+}
+/* End TESTIMONIALS*/
 
 @keyframes animateScale1 {
     10% {
