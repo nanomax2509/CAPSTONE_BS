@@ -372,6 +372,9 @@ div#video__popup iframe {
 
 /* Responsive Better Pet Nutrition */
 @media screen and (max-width: 992px) {
+    .videofd {
+        padding: 3rem 0;
+    }
     .videofd .videofd__title h3 {
         font-size: 2.1875rem;
         line-height: 2.5rem;
@@ -499,7 +502,25 @@ div#video__popup iframe {
 .feedbacks .feedbacks__carousel:active {
     cursor: pointer;
 }
-
+/* Responsive Testimonials */
+@media screen and (max-width: 992px) {
+    .feedbacks {
+        padding: 3rem 0 1.5rem;
+    }
+    .feedbacks .feedbacks__title h3 {
+        font-size: 2.1875rem;
+        line-height: 2.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .feedbacks .feedbacks__title h3 {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+    .slick-dots {
+        display: none;
+    }
+}
 /* End TESTIMONIALS*/
 
 @keyframes animateScale1 {
