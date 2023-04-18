@@ -474,20 +474,23 @@ div#video__popup iframe {
     margin: 0 7px;
 }
 .slick-dots li button::before {
+    font-family: "Jost", sans-serif;
+    width: 10px;
+    height: 10px;
+    background: #d8d8d8;
+    border-radius: 50%;
     display: block;
     font-size: 10px;
     opacity: 1;
     color: #d8d8d8;
 }
 .slick-dots li button:hover::before {
-    font-family: "Jost", sans-serif;
     width: 30px;
     height: 10px;
-    top: 3px;
-    left: -4px;
     border-radius: 10px;
     background: #189a46;
     color: #189a46;
+    left: -10px;
 }
 .slick-dots li.slick-active button::before {
     font-family: "Jost", sans-serif;
@@ -496,8 +499,7 @@ div#video__popup iframe {
     color: #189a46;
     background: #189a46;
     border-radius: 10px;
-    top: 3px;
-    left: -4px;
+    left: -10px;
 }
 .feedbacks .feedbacks__carousel:active {
     cursor: pointer;
