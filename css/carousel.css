@@ -1,0 +1,90 @@
+#poochCarouselCap .carousel-item {
+    transition: 1s;
+}
+#poochCarouselCap .carousel-item > img {
+    min-height: calc(100vh - 90px);
+    background-size: cover;
+    /* object-fit: cover; */
+    filter: brightness(50%);
+}
+
+#poochCarouselCap .carousel-caption h5 {
+    font-size: 4.125rem;
+    line-height: 4.75rem;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}
+#poochCarouselCap .carousel-caption p {
+    font-weight: 400;
+    line-height: 1.875rem;
+    opacity: 0.9;
+    color: white;
+    font-size: 1.2rem;
+}
+#poochCarouselCap button.btn {
+    padding: 10px 35px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: white;
+    transition: all 0.5s;
+}
+#poochCarouselCap button.btn:hover {
+    background-color: white;
+    color: #189a46;
+}
+#poochCarouselCap button.btn-white {
+    color: #189a46;
+    background-color: #fff;
+}
+#poochCarouselCap .carousel-caption {
+    max-width: 700px;
+    position: absolute;
+    top: 20%;
+    left: 9%;
+}
+#poochCarouselCap .carousel-indicators li {
+    display: none;
+}
+#poochCarouselCap .carousel-indicators li {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    opacity: 0.9;
+    margin: 30px 10px;
+    transition: 0.2s;
+    border: none;
+}
+
+#poochCarouselCap .carousel-indicators li:hover,
+#poochCarouselCap .carousel-indicators .active {
+    background-color: #189a46;
+    width: 30px;
+    height: 10px;
+}
+
+@media (max-width: 1200px) {
+    #poochCarouselCap .carousel-caption h5 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    #poochCarouselCap .carousel-caption p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 992px) {
+    #poochCarouselCap .carousel-caption h5 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+@media (max-width: 480px) {
+    #poochCarouselCap .carousel-caption h5 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}

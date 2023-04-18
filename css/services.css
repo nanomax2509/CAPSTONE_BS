@@ -1,0 +1,36 @@
+#services .services__content img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#services .services__text{
+    align-self: center;
+}
+#services .services__title .title{
+    text-align: left;
+}
+#services .services__title p{
+    margin: 15px 0 35px 0;
+    line-height: 24.5px;
+    color: #696969;
+}
+#services .services__title li{
+    color: #000c04;
+    margin: 15px 0;
+    font-weight: 600;
+    line-height: 26px;
+}
+#services .services__title i{
+    color: #189a46;
+    background-color: #936be80d;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 12px;
+}
+@media screen and (max-width:991px){
+    #services .services__content img{
+        width: 100%;
+    }
+}

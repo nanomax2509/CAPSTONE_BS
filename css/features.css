@@ -1,0 +1,40 @@
+#features{
+    background-color: #936be80d;
+}
+#features .features__col{
+    margin-bottom: 30px;
+}
+#features .features__box{
+    padding: 40px 30px;
+    transition: all .5s;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+#features .features__box i{
+    color: #189a46;
+    font-size: 1.875rem;
+}
+#features .features__box h4 a{
+    font-size: 24px;
+    font-size: 600;
+    margin: 25px 0 15px 0;
+    color: #000c04;
+    display: block;
+    transition: all .5s;
+}
+#features .features__box h4:hover a{
+    color: #189a46;
+}
+#features .features__box:hover{
+    background-color: #936be80d;
+}
+#features .features__box p{
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #696969;
+    
+}
+#features .features__box a.read:hover{
+    color: #189a46;
+}
