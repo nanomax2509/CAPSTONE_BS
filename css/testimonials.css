@@ -1,0 +1,132 @@
+.feedbacks {
+    padding: 4rem 0;
+    background: #f9f7fe;
+}
+.feedbacks .feedbacks__title {
+    text-align: center;
+}
+.feedbacks .feedbacks__title h6 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.feedbacks .feedbacks__title h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+.feedbacks .feedbacks__carousel {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.feedbacks .feedbacks__slide-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2.5rem 1.875rem;
+}
+.feedbacks__slide-item .feedbacks__content {
+    margin: 1.5rem;
+    margin-top: 0;
+}
+/* Edit " in content */
+.feedbacks__slide-item .feedbacks__content span {
+    font-size: 3.125rem;
+    color: #189a46;
+    line-height: 0.8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: "Merriweather", serif;
+}
+.feedbacks__slide-item .feedbacks__content p {
+    font-size: 1rem;
+}
+.feedbacks__slide-item .feedbacks__desc {
+    display: flex;
+    align-items: center;
+}
+.feedbacks__slide-item .desc__img {
+    width: 4.375rem;
+    height: 4.375rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.feedbacks__slide-item .desc__img img {
+    width: 100%;
+}
+.feedbacks__desc .desc__people {
+    margin-left: 1rem;
+}
+.feedbacks__desc .desc__people h3 {
+    margin-bottom: 0.1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.feedbacks__desc .desc__people p {
+    margin: 0;
+    color: #777;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+.feedbacks__slide-item {
+    margin-left: 1rem;
+}
+
+/* Edit Lib Stick */
+.slick-dots {
+    bottom: -55px;
+}
+.slick-dots li {
+    margin: 0 7px;
+}
+.slick-dots li button::before {
+    display: block;
+    font-size: 10px;
+    opacity: 1;
+    color: #d8d8d8;
+}
+.slick-dots li button:hover::before {
+    font-family: "Jost", sans-serif;
+    width: 30px;
+    height: 10px;
+    top: 3px;
+    left: -4px;
+    border-radius: 10px;
+    background: #189a46;
+    color: #189a46;
+}
+.slick-dots li.slick-active button::before {
+    font-family: "Jost", sans-serif;
+    width: 30px;
+    height: 10px;
+    color: #189a46;
+    background: #189a46;
+    border-radius: 10px;
+    top: 3px;
+    left: -4px;
+}
+.feedbacks .feedbacks__carousel:active {
+    cursor: pointer;
+}
+/* Responsive Testimonials */
+@media screen and (max-width: 992px) {
+    .feedbacks {
+        padding: 3rem 0 1.5rem;
+    }
+    .feedbacks .feedbacks__title h3 {
+        font-size: 2.1875rem;
+        line-height: 2.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .feedbacks .feedbacks__title h3 {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+    .slick-dots {
+        display: none;
+    }
+}
