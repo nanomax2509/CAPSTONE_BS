@@ -1,0 +1,82 @@
+.update {
+    padding: 4.5rem 0;
+}
+.update .update__container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+.update__title {
+    text-align: center;
+}
+.update__title h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.update__title p {
+    font-size: 1.125rem;
+    margin: 1rem 0;
+    color: #666;
+}
+/* .update form {
+    display: flex;
+    justify-content: space-evenly;
+} */
+.update form {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.update .form-control {
+    display: inline;
+    width: 67%;
+    height: 60px;
+    border-radius: 10px;
+}
+.update .form-control:focus {
+    border: 1px solid #189A46;
+    box-shadow: none;
+}
+.update form button {
+    width: 27%;
+    font-size: 1.125rem;
+    margin-left: 0.8rem;
+    height: 60px;
+    background: #189A46;
+    border: #189A46;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.update form button:hover {
+    background: #116E32;
+    border: #116E32;
+}
+/* Responsive Update */
+@media screen and (max-width: 992px) {
+    .update__title h3 {
+        font-size: 2.1875rem;
+        line-height: 2.5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .update .form-control {
+        width: 97%;
+    }
+    .update form button {
+        margin-left: 36%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .update__title h3 {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+    .update .form-control {
+        width: 100%;
+        margin-left: -7px;
+    }
+    .update form button {
+        width: 100%;
+        margin-left: -7px;
+        margin-top: 1rem;
+    }
+}
