@@ -1,0 +1,51 @@
+#number .container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+#number {
+    background-color:#189a46;
+}
+#number .number__row{
+    color: white;
+    text-align: center;
+}
+#number .number__row p{
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    font-weight: 600;
+    margin: 30px 0 0;
+}
+#number .number__row h4{
+    opacity: 0.8;
+    line-height: 1.5625rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+@media screen and (min-width:1200px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+@media screen and (min-width:992px) {
+    .container{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:992px) {
+    #number .number__row p{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:737px) {
+    #number .number__row p{
+        font-size: 35px;
+        line-height: 38px;
+        margin-top: 20px;
+    }
+}
