@@ -1,0 +1,8 @@
+footer, .card {
+    background: #111;
+    color: #fff;
+}
+
+.card-group {
+    border: 1px solid yellow;
+}
