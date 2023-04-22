@@ -3,11 +3,31 @@ footer, .card {
     color: #fff;
 }
 
-footer .card-body ul li{
+footer .card-body li, footer .card-body li a{
     color: #696969;
+    transition: all 0.5s;
+}
+
+footer .card-body li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer__icon {
+    margin-left: -15px;
 }
 
 .footer__icon i {
     color: #696969;
+    margin-left: 0.9375rem;
 }
 
+footer .copyright {
+    text-align: center;
+    color: #696969;
+}
+
+.copyright a {
+    color: #f53626;
+    opacity: 0.9;
+}
