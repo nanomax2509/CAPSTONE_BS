@@ -3,6 +3,11 @@ footer, .card {
     color: #fff;
 }
 
-.card-group {
-    border: 1px solid yellow;
+footer .card-body ul li{
+    color: #696969;
 }
+
+.footer__icon i {
+    color: #696969;
+}
+
