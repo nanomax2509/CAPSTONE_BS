@@ -12,14 +12,14 @@
     font-size: 4.125rem;
     line-height: 4.75rem;
     font-weight: 700;
-    color: white;
+    color: var(--heading-color-white);
     text-transform: capitalize;
 }
 #poochCarouselCap .carousel-caption p {
     font-weight: 400;
     line-height: 1.875rem;
     opacity: 0.9;
-    color: white;
+    color: var(--heading-color-white);
     font-size: 1.2rem;
 }
 #poochCarouselCap button.btn {
@@ -29,16 +29,16 @@
     font-weight: 400;
     border-radius: 10px;
     border: 2px solid #fff;
-    color: white;
+    color: var(--heading-color-white);
     transition: all 0.5s;
 }
 #poochCarouselCap button.btn:hover {
-    background-color: white;
-    color: #189a46;
+    background-color: var(--bg-color-white);;
+    color: var(--primary-color);
 }
 #poochCarouselCap button.btn-white {
-    color: #189a46;
-    background-color: #fff;
+    color: var(--primary-color);
+    background-color: var(--bg-color-white);
 }
 #poochCarouselCap .carousel-caption {
     max-width: 700px;
@@ -62,7 +62,7 @@
 
 #poochCarouselCap .carousel-indicators li:hover,
 #poochCarouselCap .carousel-indicators .active {
-    background-color: #189a46;
+   background-color: var(--primary-color);
     width: 30px;
     height: 10px;
 }

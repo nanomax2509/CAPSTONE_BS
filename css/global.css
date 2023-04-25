@@ -58,3 +58,10 @@ ul{
         line-height: 38px;
     }
 }
+/* DarkTheme */
+.dark .title h3{
+    color: white;
+}
+.dark .read{
+    color: #ddd;
+}
