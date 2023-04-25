@@ -52,3 +52,8 @@ footer .copyright {
         margin-bottom: 3rem;
     }
 }
+@media screen and (max-width: 600px) {
+    footer .footer__row1 {
+        margin-bottom: 3.5rem;
+    }
+}
