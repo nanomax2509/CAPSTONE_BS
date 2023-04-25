@@ -57,7 +57,7 @@
         line-height: 2.5rem;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .update .form-control {
         width: 97%;
     }
