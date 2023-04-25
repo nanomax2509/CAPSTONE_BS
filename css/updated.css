@@ -1,5 +1,5 @@
 .update {
-    padding: 4.5rem 0;
+    padding: 7rem 0;
 }
 .update .update__container {
     max-width: 650px;
@@ -51,7 +51,7 @@
     border: #116E32;
 }
 /* Responsive Update */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1080px) {
     .update__title h3 {
         font-size: 2.1875rem;
         line-height: 2.5rem;
@@ -65,11 +65,7 @@
         margin-left: 36%;
     }
 }
-@media screen and (max-width: 576px) {
-    .update__title h3 {
-        font-size: 2rem;
-        line-height: 2.375rem;
-    }
+@media screen and (max-width: 667px) {
     .update .form-control {
         width: 100%;
         margin-left: -7px;
@@ -78,5 +74,17 @@
         width: 100%;
         margin-left: -7px;
         margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .update__title h3 {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+}
+@media screen and (max-width: 378px) {
+    .update__title h3 {
+        font-size: 1.6875rem;
+        line-height: 2rem;
     }
 }
