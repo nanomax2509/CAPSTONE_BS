@@ -5,13 +5,13 @@
 .about__title .title p {
     font-size: 1.2rem;
     line-height: 28px;
-    color: #696969;
+    color: var(--font-color);
 }
 .about__title .title a {
     text-decoration: none;
 }
 .about__title .title a:hover {
-    color: #189a46;
+    color: var( --primary-color);
 }
 @media screen and (max-width:1080px){
     .about__title h3{
@@ -25,4 +25,16 @@
         font-size: 32px;
         line-height: 38px;
     }
+}
+
+/* DarkTheme */
+.dark .about{
+    background-color: var(--bg-color-15);
+}
+
+.dark .about__title .title p{
+    color: var(--font-color-dark);
+}
+.dark #features .features__box p{
+    color: var(--font-color-dark);
 }

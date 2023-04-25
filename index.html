@@ -35,12 +35,12 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body>
+<body id="myBody">
     <!-- HEADER -->
-    <header>
-        <div class="container">
+    <header class="header__main fixed__top">
+        <div class="container-xl container-sm">
             <!-- Image and text -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light ">
                 <a class="header__logo navbar-brand" href="#">Pooch Care</a>
                 <button class="header__button navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#menuHeader" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -86,6 +86,20 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <!-- DarkMode -->
+                <div class="darkAndNight mobile-position">
+                    <nav class="navigation">
+                        <div class="darkAndNight__switchWrapper">
+                            <label class="darkAndNight__switch" for="checkbox">
+                            <input type="checkbox" id="checkbox">
+                            <div class="turnOnOff">
+                                <i class="gg-sun"></i>
+                                <i class="gg-moon"></i>
+                            </div>
+                        </label>
+                        </div>
+                    </nav>
                 </div>
             </nav>
         </div>
@@ -239,7 +253,7 @@
         </section>
         <!-- FEATURES -->
         <section class="features py-5" id="features">
-            <div class="container pt-lg-5">
+            <div class="container-lg pt-lg-5 container-sm">
                 <div class="features__content">
                     <div class="row">
                         <div class="features__col col-lg-4 col-sm-6">
@@ -332,7 +346,7 @@
         </section>
         <!-- WHY CHOOSE US -->
         <section class="services py-5" id="services">
-            <div class="container py-md-5 py-3">
+            <div class="container-lg py-md-5 py-3 container-sm ">
                 <div class="services__content">
                     <div class="row">
                         <div class="services__img col-lg-6">
@@ -406,7 +420,7 @@
        <!-- OUR PLAN -->
     <section class="plan py-5" id="plan">
         <div class="plan__sec pt-lg-4 pt-md-3 pb-lg-5 pb-md-4">
-            <div class="container">
+            <div class="container-xl">
                 <div class="plan__title">
                     <div class="title">
                         <h6>Our Plans</h6>
@@ -883,7 +897,8 @@
     <script>
         $('.counter').countUp();
     </script>
-    
+    <!-- DARKTHEME -->
+    <script src="./js/Darktheme.js"></script>
 </body>
 
 </html>

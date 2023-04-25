@@ -1,5 +1,7 @@
 /* GLOBAL */
 @import url(./global.css);
+/* VARIABLE */
+@import url(./variable.css);
 /* HEADER */
 @import url(./header.css);
 /* CAROUSEL */
