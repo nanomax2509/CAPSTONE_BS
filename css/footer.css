@@ -1,0 +1,59 @@
+footer, .card {
+    background: #111;
+    color: #fff;
+}
+
+.footer__container {
+    padding: 3rem 0;
+}
+
+footer .card-body {
+    padding: 0;
+}
+
+footer .card-body li, footer .card-body li a{
+    color: #696969;
+    transition: all 0.5s;
+}
+
+footer .card-body li {
+    line-height: 1.75rem;
+}
+
+footer .card-body li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer__icon {
+    margin-left: -15px;
+}
+
+.footer__icon i {
+    color: #696969;
+    margin-left: 0.9375rem;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #696969;
+    padding: 1.5rem 0 0.5rem;
+    border-top: 1px solid rgba(103, 99, 99, 0.14);
+}
+
+.copyright a {
+    color: #f53626;
+    opacity: 0.9;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    footer .footer__row1 {
+        margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    footer .footer__row1 {
+        margin-bottom: 3.5rem;
+    }
+}

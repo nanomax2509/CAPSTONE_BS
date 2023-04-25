@@ -112,13 +112,15 @@
     cursor: pointer;
 }
 /* Responsive Testimonials */
-@media screen and (max-width: 992px) {
-    .feedbacks {
-        padding: 3rem 0 1.5rem;
-    }
+@media screen and (max-width: 1080px) {
     .feedbacks .feedbacks__title h3 {
         font-size: 2.1875rem;
         line-height: 2.5rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .feedbacks {
+        padding: 3rem 0 1.5rem;
     }
 }
 @media screen and (max-width: 576px) {
