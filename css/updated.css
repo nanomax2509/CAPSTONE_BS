@@ -50,6 +50,16 @@
     background: #116E32;
     border: #116E32;
 }
+/* DarkTheme */
+.dark .update {
+    background: var(--bg-color-15);
+}
+.dark .update__title h3 {
+    color: var(--heading-color-white);
+}
+.dark .update__title p {
+    color: var(--font-color-dark);
+}
 /* Responsive Update */
 @media screen and (max-width: 1080px) {
     .update__title h3 {

@@ -22,6 +22,7 @@
 }
 .videofd .videofd__title p {
     font-size: 1.125rem;
+    color: var(--font-color);
 }
 .videofd .video__container {
     margin-top: 2.5rem;
@@ -93,6 +94,17 @@ div#video__popup iframe {
     top: -20px;
     right: -14px;
     font-size: 2rem;
+}
+
+/* DarkTheme */
+.dark .videofd {
+    background: var(--bg-color-15);
+}
+.dark .videofd .videofd__title h3 {
+    color: var(--heading-color-white);
+}
+.dark .videofd .videofd__title p {
+    color: var(--font-color-dark);
 }
 
 /* Responsive Better Pet Nutrition */

@@ -41,7 +41,7 @@
     font-family: "Merriweather", serif;
 }
 .feedbacks__slide-item .feedbacks__content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .feedbacks__slide-item .feedbacks__desc {
     display: flex;
@@ -110,6 +110,22 @@
 }
 .feedbacks .feedbacks__carousel:active {
     cursor: pointer;
+}
+/* DarkTheme */
+.dark .feedbacks {
+    background: var(--bg-color-222);
+}
+.dark .feedbacks .feedbacks__title h3 {
+    color: #ddd;
+}
+.dark .feedbacks .feedbacks__slide-item {
+    background: var(--bg-color-15);
+}
+.dark .feedbacks__slide-item .feedbacks__content p {
+    color: var(--font-color);
+}
+.dark .feedbacks__desc .desc__people h3 {
+    color: var(--bg-color-white);
 }
 /* Responsive Testimonials */
 @media screen and (max-width: 1080px) {
