@@ -7,7 +7,7 @@
     outline: none;
     width: 48px;
     height: 48px;
-    background: #189a46;
+    background: var(--primary-color);
     text-align: center;
     line-height: 48px;
     border-radius: 50%;

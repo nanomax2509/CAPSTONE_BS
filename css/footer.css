@@ -1,6 +1,6 @@
 footer, .card {
     background: #111;
-    color: #fff;
+    color: var(--bg-color-white);
 }
 
 .footer__container {
@@ -12,7 +12,7 @@ footer .card-body {
 }
 
 footer .card-body li, footer .card-body li a{
-    color: #696969;
+    color: var(--font-color);
     transition: all 0.5s;
 }
 
@@ -21,7 +21,7 @@ footer .card-body li {
 }
 
 footer .card-body li a:hover {
-    color: #fff;
+    color: var(-bg-color-white);
     text-decoration: underline;
 }
 
@@ -30,19 +30,19 @@ footer .card-body li a:hover {
 }
 
 .footer__icon i {
-    color: #696969;
+    color: var(--font-color);
     margin-left: 0.9375rem;
 }
 
 footer .copyright {
     text-align: center;
-    color: #696969;
+    color: var(--font-color);
     padding: 1.5rem 0 0.5rem;
     border-top: 1px solid rgba(103, 99, 99, 0.14);
 }
 
 .copyright a {
-    color: #f53626;
+    color: var(--secondary);
     opacity: 0.9;
 }
 

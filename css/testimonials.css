@@ -9,7 +9,7 @@
     font-size: 1.125rem;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #f53626;
+    color: var(--secondary);
 }
 .feedbacks .feedbacks__title h3 {
     font-size: 2.5rem;
@@ -22,7 +22,7 @@
     margin: 0 auto;
 }
 .feedbacks .feedbacks__slide-item {
-    background: #fff;
+    background: var(--bg-color-white);
     border-radius: 10px;
     padding: 2.5rem 1.875rem;
 }
@@ -33,7 +33,7 @@
 /* Edit " in content */
 .feedbacks__slide-item .feedbacks__content span {
     font-size: 3.125rem;
-    color: #189a46;
+    color: var(--primary-color);
     line-height: 0.8;
     padding-top: 8px;
     font-weight: 600;
@@ -95,15 +95,15 @@
     top: 3px;
     left: -4px;
     border-radius: 10px;
-    background: #189a46;
-    color: #189a46;
+    background: var(--primary-color);
+    color: var(--primary-color);
 }
 .slick-dots li.slick-active button::before {
     font-family: "Jost", sans-serif;
     width: 30px;
     height: 10px;
-    color: #189a46;
-    background: #189a46;
+    color: var(--primary-color);
+    background: var(--primary-color);
     border-radius: 10px;
     top: 3px;
     left: -4px;
