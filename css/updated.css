@@ -33,7 +33,7 @@
     border-radius: 10px;
 }
 .update .form-control:focus {
-    border: 1px solid #189A46;
+    border: 1px solid var(--primary-color);
     box-shadow: none;
 }
 .update form button {
@@ -41,14 +41,24 @@
     font-size: 1.125rem;
     margin-left: 0.8rem;
     height: 60px;
-    background: #189A46;
-    border: #189A46;
+    background: var(--primary-color);
+    border: var(--primary-color);
     border-radius: 10px;
     transition: all 0.5s;
 }
 .update form button:hover {
     background: #116E32;
     border: #116E32;
+}
+/* DarkTheme */
+.dark .update {
+    background: var(--bg-color-15);
+}
+.dark .update__title h3 {
+    color: var(--heading-color-white);
+}
+.dark .update__title p {
+    color: var(--font-color-dark);
 }
 /* Responsive Update */
 @media screen and (max-width: 1080px) {
