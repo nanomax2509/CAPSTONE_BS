@@ -1,6 +1,7 @@
 footer, .card {
     background: #111;
     color: var(--bg-color-white);
+    border: none;
 }
 
 .footer__container {
@@ -21,7 +22,7 @@ footer .card-body li {
 }
 
 footer .card-body li a:hover {
-    color: var(-bg-color-white);
+    color: var(--bg-color-white);
     text-decoration: underline;
 }
 
@@ -32,6 +33,7 @@ footer .card-body li a:hover {
 .footer__icon i {
     color: var(--font-color);
     margin-left: 0.9375rem;
+    transition: all .5s;
 }
 
 footer .copyright {
@@ -56,4 +58,10 @@ footer .copyright {
     footer .footer__row1 {
         margin-bottom: 3.5rem;
     }
+}
+footer .card-body li a:hover{
+    color: var(--heading-color-white);
+}
+footer .footer__icon i:hover{
+    color: var(--heading-color-white);
 }

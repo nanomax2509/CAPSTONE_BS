@@ -152,6 +152,11 @@
     line-height: 38px;
 }
 }
+@media screen and (max-width: 800px){
+    #plan .plan__col{
+        border-color: white;
+    }
+}
 @media screen and (max-width: 991px){
     #plan .plan__row {
     width: 50%;

@@ -170,6 +170,9 @@ header .navbar .header__logo:hover {
     right: 60px;
     top: 25px;
 }
+#menuHeader .HeaderSearch .btn-search{
+    display: none;
+}
 }
 /* <!-- DarkMode --> */
 
@@ -307,4 +310,10 @@ header.header__main {
     display: grid;
     align-items: center;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+}
+header .navbar{
+    background-color: var(--bg-color-white);
+}
+@media only screen and (max-width: 991px) {
+    
 }
